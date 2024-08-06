@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: complex-workflow-1545
+  description: complex-workflow-1545
+  annotations:
+    backstage.io/kubernetes-namespace: orchestrator-gitops
+    backstage.io/kubernetes-id: complex-workflow-1545-ci
+    janus-idp.io/tekton: complex-workflow-1545
+    github.com/project-slug: gabriel-farache/complex-workflow-1545
+spec:
+  type: workflow-project
+  system: system:default/janus-orchestrator
+  lifecycle: development
+  owner: user:guest
